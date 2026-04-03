@@ -13,6 +13,7 @@
 // Click priority: navigateTo → articleLink → ghLink
 
 import GreenHouse2Img from "../Assets/Projects/AutomaticGreenhouse/GreenHouseTitleImg.png";
+import DDPMTitleImg from "../Assets/Projects/DiabeticRetinopathy/DDPMTitleImg.png";
 
 export const articles = [
   {
@@ -26,5 +27,17 @@ export const articles = [
     imgPath: GreenHouse2Img,
     tags: ["ESP32", "React Native", "Firebase", "Python"],
     date: "2024-06",
+  },
+  {
+    id: "diabetic-retinopathy-diffusion",
+    title: "Conditional Generation of Retinal Images",
+    overview:
+      "Using diffusion models to generate stage-specific diabetic retinopathy fundus images. Compares cross-attention vs. simplified class-conditioning on the DDR dataset to tackle medical data imbalance.",
+    ghLink: "https://github.com/DaverSVK",
+    articleLink: null,
+    navigateTo: "/diabetic_retinopathy",
+    imgPath: DDPMTitleImg,
+    tags: ["Medical AI", "Diffusion Models", "Computer Vision", "Python"],
+    date: "2025-01",
   },
 ];

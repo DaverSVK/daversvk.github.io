@@ -1,53 +1,20 @@
 import React from "react";
-import { Col, Row } from "react-bootstrap";
+import { Row, Col } from "react-bootstrap";
 import { CgCPlusPlus } from "react-icons/cg";
-
-import {
-  DiReact,
-  DiPython,
-  DiGit,
-  // DiC,
-} from "react-icons/di";
-import {
-  SiFirebase,
-  SiAutodesk,
-  SiBlender,
-
-  // SiMathworks,
-  // SiRaspberrypi,
-} from "react-icons/si";
-// import { TbBrandGolang } from "react-icons/tb";
+import { DiReact, DiPython, DiGit } from "react-icons/di";
+import { SiFirebase, SiAutodesk, SiBlender } from "react-icons/si";
+import SkillIcon from "./SkillIcon";
 
 function Techstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
-      <Col xs={4} md={2} className="tech-icons">
-        <CgCPlusPlus />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiReact />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiGit />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiFirebase />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiBlender />
-      </Col>
-      {/* <Col xs={4} md={2} className="tech-icons">
-        <DiC />
-      </Col> */}
-      {/* <Col xs={4} md={2} className="tech-icons">
-        <SiRaspberrypi />
-      </Col> */}
-      <Col xs={4} md={2} className="tech-icons">
-        <SiAutodesk />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiPython />
-      </Col>
+      <Col xs={4} md={2}><SkillIcon icon={<CgCPlusPlus />} level={4} /></Col>
+      <Col xs={4} md={2}><SkillIcon icon={<DiReact />}    level={3} /></Col>
+      <Col xs={4} md={2}><SkillIcon icon={<DiGit />}      level={4} /></Col>
+      <Col xs={4} md={2}><SkillIcon icon={<SiFirebase />} level={2} /></Col>
+      <Col xs={4} md={2}><SkillIcon icon={<SiBlender />}  level={1} /></Col>
+      <Col xs={4} md={2}><SkillIcon icon={<SiAutodesk />} level={2} /></Col>
+      <Col xs={4} md={2}><SkillIcon icon={<DiPython />}   level={2} /></Col>
     </Row>
   );
 }

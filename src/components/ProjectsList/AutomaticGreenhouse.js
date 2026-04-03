@@ -75,12 +75,12 @@ function AutomaticGreenhouse() {
             <p>{overviewPara2}</p>
             <div className="art-callout">{overviewCallout}</div>
             {/* TODO: Replace with a photo of the completed greenhouse or early sketches */}
-            <div className="art-img-placeholder">
+            {/* <div className="art-img-placeholder">
               [ Add image: completed greenhouse or early concept sketch ]
             </div>
             <p className="art-caption">
-              {/* TODO: Add caption */}[ Caption — e.g. "First prototype, Jan 2024" ]
-            </p>
+             TODO: Add caption }[ Caption — e.g. "First prototype, Jan 2024" ]
+            </p> */}
           </div>
         </section>
 
@@ -120,7 +120,7 @@ function AutomaticGreenhouse() {
                   className="art-img-half"
                 />
                 <p className="art-caption">
-                  {/* TODO: Add caption */}[ Caption — e.g. "Enclosure schematic with component layout" ]
+                  {/* TODO: Add caption */}[Enclosure schematic with component layout ]
                 </p>
               </Col>
             </Row>
@@ -135,12 +135,12 @@ function AutomaticGreenhouse() {
               <p>{firmwareText}</p>
             </div>
             {/* TODO: Add firmware architecture diagram, flowchart, or code snippet screenshot */}
-            <div className="art-img-placeholder">
+            {/* <div className="art-img-placeholder">
               [ Add image: firmware flowchart or architecture diagram ]
             </div>
             <p className="art-caption">
-              {/* TODO: Add caption */}[ Caption — e.g. "Sensor polling and control loop overview" ]
-            </p>
+              [ Caption — e.g. "Sensor polling and control loop overview" ]
+            </p> */}
           </div>
 
           {/* 3.3 User Interface */}
@@ -158,7 +158,7 @@ function AutomaticGreenhouse() {
               className="art-img-full"
             />
             <p className="art-caption">
-              {/* TODO: Add caption */}[ Caption — e.g. "React Native app — login, live readings, and plant-mode settings" ]
+              {/* TODO: Add caption */}[ React Native app — login, live readings, and plant-mode settings ]
             </p>
           </div>
         </section>

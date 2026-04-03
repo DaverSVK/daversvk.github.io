@@ -510,29 +510,67 @@ button:focus {
 
 .tech-icons {
   font-size: 4.5em !important;
-  margin: 15px !important;
   padding: 10px !important;
   opacity: 0.93 !important;
   border: 1.7px solid var(--accent-border) !important;
-  vertical-align: middle !important;
   text-align: center !important;
-  border-radius: 5px !important;
-  display: table !important;
+  border-radius: 5px 5px 0 0 !important;
+  display: block !important;
   box-shadow: 4px 5px 4px 3px rgba(34, 197, 94, 0.08) !important;
   overflow: hidden !important;
   transition: all 0.4s ease 0s !important;
-}
-
-@media (max-width: 767px) {
-  .tech-icons {
-    margin: 10px !important;
-  }
 }
 
 .tech-icons:hover {
   transform: scale(1.05) !important;
   overflow: hidden !important;
   border: 2.2px solid rgba(34, 197, 94, 0.60) !important;
+}
+
+/* Skill card wrapper — icon + level bar */
+.skill-card {
+  display: flex !important;
+  flex-direction: column !important;
+  margin: 15px !important;
+}
+
+@media (max-width: 767px) {
+  .skill-card {
+    margin: 10px !important;
+  }
+}
+
+.skill-level-bar {
+  display: flex !important;
+  border: 1.7px solid var(--accent-border) !important;
+  border-top: none !important;
+  border-radius: 0 0 5px 5px !important;
+  overflow: hidden !important;
+  height: 8px !important;
+  transition: border-color 0.4s ease !important;
+}
+
+.skill-level-segment {
+  flex: 1 !important;
+  background: var(--bg-base) !important;
+  transition: background 0.3s ease !important;
+}
+
+.skill-level-segment + .skill-level-segment {
+  border-left: 1px solid var(--bg-base) !important;
+}
+
+.skill-level-segment.filled {
+  background: var(--accent) !important;
+}
+
+.skill-card:hover .tech-icons {
+  transform: scale(1.05) !important;
+  border-color: rgba(34, 197, 94, 0.60) !important;
+}
+
+.skill-card:hover .skill-level-bar {
+  border-color: rgba(34, 197, 94, 0.60) !important;
 }
 .tech-icon-images {
   padding: 20px !important;
@@ -844,7 +882,7 @@ button:focus {
   line-height: 1.7;
 }
 .art-caption {
-  text-align: center;
+  text-align: center !important;
   font-size: 0.8em;
   color: var(--text-muted);
   margin-top: 10px;

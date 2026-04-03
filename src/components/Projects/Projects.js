@@ -6,6 +6,7 @@ import leaf from "../../Assets/Projects/PlantAI/PlantAITitleImg.png";
 import emotion from "../../Assets/Projects/FaceRecognition/FaceRecognitionTitleImg.png";
 import editor from "../../Assets/Projects/Editor/EditorTitleImg.png";
 import GreenhouseImg from "../../Assets/Projects/AutomaticGreenhouse/GreenHouseTitleImg.png";
+import DDPMImg from "../../Assets/Projects/DiabeticRetinopathy/DDPMTitleImg.png";
 import suicide from "../../Assets/Projects/AiForSocialGood/AiForSocialGoodTitleImg.png";
 import bitsOfCode from "../../Assets/Projects/BitsOfCode/BitsOfCodeTitleImg.png";
 import Github from "./Github";
@@ -31,6 +32,17 @@ function Projects() {
               ghLink="http://github.com/DaverSVK/GreenhouseControl"
               // demoLink="https://chatify-49.web.app/"
               navigateTo="/automatic_greenhouse"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={DDPMImg}
+              isBlog={false}
+              title="Diabetic Retinopathy — Diffusion Models"
+              description="Using conditional diffusion models to generate stage-specific retinal fundus images. Tackles medical data imbalance by synthesizing realistic images aligned with disease severity, trained on the DDR dataset."
+              ghLink="https://github.com/DaverSVK"
+              navigateTo="/diabetic_retinopathy"
             />
           </Col>
 
