@@ -1,30 +1,30 @@
 {
   "files": {
-    "main.css": "/static/css/main.3b795f3d.css",
-    "main.js": "/static/js/main.d00c6fa4.js",
+    "main.css": "/static/css/main.0ad9231a.css",
+    "main.js": "/static/js/main.6d531465.js",
     "static/js/415.3a4cab02.chunk.js": "/static/js/415.3a4cab02.chunk.js",
     "static/js/787.edb04223.chunk.js": "/static/js/787.edb04223.chunk.js",
     "static/media/about.png": "/static/media/about.102f12c68bb3461a6e4f.png",
-    "static/media/leaf.png": "/static/media/leaf.ff2616f664c8c0ceab91.png",
-    "static/media/GreenApp.png": "/static/media/GreenApp.f540ed3d69ea1b5a8dad.png",
-    "static/media/emotion.png": "/static/media/emotion.eabfc16e7a146ab15778.png",
-    "static/media/suicide.png": "/static/media/suicide.9c86cd7138a398c45fa5.png",
-    "static/media/GreenHouse.png": "/static/media/GreenHouse.8b874376ffea39c227c9.png",
-    "static/media/codeEditor.png": "/static/media/codeEditor.1b585492490c8c1cace9.png",
+    "static/media/PlantAITitleImg.png": "/static/media/PlantAITitleImg.ff2616f664c8c0ceab91.png",
+    "static/media/GreenHouseSection2Img.png": "/static/media/GreenHouseSection2Img.f540ed3d69ea1b5a8dad.png",
+    "static/media/FaceRecognitionTitleImg.png": "/static/media/FaceRecognitionTitleImg.eabfc16e7a146ab15778.png",
+    "static/media/AiForSocialGoodTitleImg.png": "/static/media/AiForSocialGoodTitleImg.9c86cd7138a398c45fa5.png",
+    "static/media/GreenHouseSection1Img.png": "/static/media/GreenHouseSection1Img.8b874376ffea39c227c9.png",
+    "static/media/EditorTitleImg.png": "/static/media/EditorTitleImg.1b585492490c8c1cace9.png",
     "static/media/CV_EN_DavidSzepvolgyi.pdf": "/static/media/CV_EN_DavidSzepvolgyi.6fe64680f0927c206532.pdf",
-    "static/media/blog.png": "/static/media/blog.fb8ab7f271a937d5fc01.png",
-    "static/media/GreenHouse2.png": "/static/media/GreenHouse2.538f168c63e76ed11e8f.png",
+    "static/media/BitsOfCodeTitleImg.png": "/static/media/BitsOfCodeTitleImg.fb8ab7f271a937d5fc01.png",
+    "static/media/GreenHouseTitleImg.png": "/static/media/GreenHouseTitleImg.538f168c63e76ed11e8f.png",
     "static/media/home-bg.png": "/static/media/home-bg.bd7670a96d05161cf7be.png",
     "static/media/Robot-Home.png": "/static/media/Robot-Home.b72e5c4df2a9c34c002d.png",
     "index.html": "/index.html",
     "static/media/InfinityLoader.svg": "/static/media/InfinityLoader.7bb9bef2da04a0e3f576.svg",
-    "main.3b795f3d.css.map": "/static/css/main.3b795f3d.css.map",
-    "main.d00c6fa4.js.map": "/static/js/main.d00c6fa4.js.map",
+    "main.0ad9231a.css.map": "/static/css/main.0ad9231a.css.map",
+    "main.6d531465.js.map": "/static/js/main.6d531465.js.map",
     "415.3a4cab02.chunk.js.map": "/static/js/415.3a4cab02.chunk.js.map",
     "787.edb04223.chunk.js.map": "/static/js/787.edb04223.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3b795f3d.css",
-    "static/js/main.d00c6fa4.js"
+    "static/css/main.0ad9231a.css",
+    "static/js/main.6d531465.js"
   ]
 }
