@@ -92,15 +92,15 @@ function NavBar() {
               </Nav.Link>
             </Nav.Item>
 
-            {/* <Nav.Item>
+            <Nav.Item>
               <Nav.Link
-                href="https://soumyajitblogs.vercel.app/"
-                target="_blank"
-                rel="noreferrer"
+                as={Link}
+                to="/articles"
+                onClick={() => updateExpanded(false)}
               >
-                <ImBlog style={{ marginBottom: "2px" }} /> Blogs
+                <ImBlog style={{ marginBottom: "2px" }} /> Articles
               </Nav.Link>
-            </Nav.Item> */}
+            </Nav.Item>
 
             <Nav.Item className="fork-btn">
               <Button

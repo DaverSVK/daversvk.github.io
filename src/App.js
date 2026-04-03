@@ -7,6 +7,7 @@ import Projects from "./components/Projects/Projects";
 import Footer from "./components/Footer";
 import Resume from "./components/Resume/ResumeNew";
 import AutomaticGreenhouse from "./components/ProjectsList/AutomaticGreenhouse";
+import Articles from "./components/Articles/Articles";
 import {
   BrowserRouter as Router,
   Route,
@@ -41,6 +42,7 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="/resume" element={<Resume />} />
           <Route path="/automatic_greenhouse" element={<AutomaticGreenhouse />} />
+          <Route path="/articles" element={<Articles />} />
           <Route path="*" element={<Navigate to="/"/>} />
         </Routes>
         <Footer />

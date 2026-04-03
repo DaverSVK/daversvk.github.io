@@ -8,16 +8,53 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Hi Everyone, I am <span className="purple">Dávid Szépvölgyi</span>
-            currently student of  <span className="purple">Robotics and cybernetics</span>
+            Hi, I'm <span className="purple">Dávid Szépvölgyi</span> — a{" "}
+            <span className="purple">Robotics and Cybernetics</span> student who
+            believes the most interesting problems live exactly at the boundary
+            between hardware and software. If I can write the firmware{" "}
+            <i>and</i> ship the app that talks to it, even better.
             <br />
-            In my free time i like to thing of new ways to solve problems and develop things that will make daily life easier.
             <br />
-            Apart from coding, some other activities that I love to do!
+            My work spans from low-level embedded systems — sensor networks,
+            microcontrollers, real-time data pipelines — all the way up to
+            cross-platform mobile and web development. I reach for{" "}
+            <span className="purple">C++ and Python</span> when hardware is
+            involved, and <span className="purple">React Native, React</span>{" "}
+            and <span className="purple">Firebase</span> when building the
+            interface people actually touch.
+            <br />
+            <br />
+            What drives me is building things with a tangible impact on daily
+            life — the kind where you can point at something physical, a plant
+            growing healthier or a process running smoother, and say{" "}
+            <i>"that's working because of the code."</i> I'm always thinking of
+            new ways to automate the tedious and make room for what matters.
+            <br />
+            <br />
+            Outside the lab and the IDE, a few things that keep me sane:
           </p>
 
-          <p style={{ color: "rgb(36, 103, 5)" }}>
-            "Have fun while doing things and in the it will be worth IT!"{" "}
+          <ul>
+            <li className="about-activity">
+              <ImPointRight /> Tinkering with electronics and building things
+              that shouldn't exist
+            </li>
+            <li className="about-activity">
+              <ImPointRight /> Exploring new frameworks — usually at midnight,
+              always with coffee
+            </li>
+            <li className="about-activity">
+              <ImPointRight /> Sports and staying active to balance out all the
+              sitting
+            </li>
+            <li className="about-activity">
+              <ImPointRight /> Travelling and collecting new perspectives (and
+              airport delays)
+            </li>
+          </ul>
+
+          <p style={{ color: "var(--accent)" }}>
+            "Have fun while doing things — in the end, it will be worth it!"{" "}
           </p>
         </blockquote>
       </Card.Body>

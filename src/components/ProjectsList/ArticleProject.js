@@ -1,6 +1,6 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
-import projectMainImage from "../../Assets/Projects/GreenHouse.png";
+import projectMainImage from "../../Assets/Projects/AutomaticGreenhouse/GreenHouseSection1Img.png";
 import Card from "react-bootstrap/Card";
 import { ImPointRight } from "react-icons/im";
 
