@@ -510,6 +510,7 @@ button:focus {
 
 .tech-icons {
   font-size: 4.5em !important;
+  margin: 15px !important;
   padding: 10px !important;
   opacity: 0.93 !important;
   border: 1.7px solid var(--accent-border) !important;
@@ -521,9 +522,18 @@ button:focus {
   transition: all 0.4s ease 0s !important;
 }
 
+/* Inside skill-card the card handles margin/radius, not the icon */
+.skill-card .tech-icons {
+  margin: 0 !important;
+  border-radius: 5px 5px 0 0 !important;
+}
+
+/* Standalone tool icon (no bar beneath) */
+.tech-icons-standalone {
+  border-radius: 5px !important;
+}
+
 .tech-icons:hover {
-  transform: scale(1.05) !important;
-  overflow: hidden !important;
   border: 2.2px solid rgba(34, 197, 94, 0.60) !important;
 }
 
@@ -532,6 +542,7 @@ button:focus {
   display: flex !important;
   flex-direction: column !important;
   margin: 15px !important;
+  transition: transform 0.4s ease !important;
 }
 
 @media (max-width: 767px) {
@@ -564,8 +575,11 @@ button:focus {
   background: var(--accent) !important;
 }
 
-.skill-card:hover .tech-icons {
+.skill-card:hover {
   transform: scale(1.05) !important;
+}
+
+.skill-card:hover .tech-icons {
   border-color: rgba(34, 197, 94, 0.60) !important;
 }
 

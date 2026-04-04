@@ -1,5 +1,5 @@
 import React from "react";
-import { Col, Row } from "react-bootstrap";
+import { Row, Col } from "react-bootstrap";
 import {
   SiVisualstudiocode,
   SiClickup,
@@ -11,21 +11,11 @@ import {
 function Toolstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiWindows11 />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiVisualstudiocode />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiClickup />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiDiscord />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiAnydesk />
-      </Col>
+      <Col xs={6} md={2}><div className="tech-icons tech-icons-standalone"><SiWindows11 /></div></Col>
+      <Col xs={6} md={2}><div className="tech-icons tech-icons-standalone"><SiVisualstudiocode /></div></Col>
+      <Col xs={6} md={2}><div className="tech-icons tech-icons-standalone"><SiClickup /></div></Col>
+      <Col xs={6} md={2}><div className="tech-icons tech-icons-standalone"><SiDiscord /></div></Col>
+      <Col xs={6} md={2}><div className="tech-icons tech-icons-standalone"><SiAnydesk /></div></Col>
     </Row>
   );
 }

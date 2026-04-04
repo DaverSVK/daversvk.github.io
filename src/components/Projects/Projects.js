@@ -41,7 +41,7 @@ function Projects() {
               isBlog={false}
               title="Diabetic Retinopathy — Diffusion Models"
               description="Using conditional diffusion models to generate stage-specific retinal fundus images. Tackles medical data imbalance by synthesizing realistic images aligned with disease severity, trained on the DDR dataset."
-              ghLink="https://github.com/DaverSVK"
+              ghLink="https://github.com/DaverSVK/DDPM_classifier_free"
               navigateTo="/diabetic_retinopathy"
             />
           </Col>

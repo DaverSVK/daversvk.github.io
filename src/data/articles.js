@@ -33,7 +33,7 @@ export const articles = [
     title: "Conditional Generation of Retinal Images",
     overview:
       "Using diffusion models to generate stage-specific diabetic retinopathy fundus images. Compares cross-attention vs. simplified class-conditioning on the DDR dataset to tackle medical data imbalance.",
-    ghLink: "https://github.com/DaverSVK",
+    ghLink: "https://github.com/DaverSVK/DDPM_classifier_free",
     articleLink: null,
     navigateTo: "/diabetic_retinopathy",
     imgPath: DDPMTitleImg,
