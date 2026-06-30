@@ -64,13 +64,13 @@ function Footer() {
               </Row>
       <Row>
         <Col md="4" className="footer-copywright">
-          <h3>Original Developer by Soumyajit Behera</h3>
+          {/* <h3>Original Developer by Soumyajit Behera</h3> */}
         </Col>
         <Col md="4" className="footer-copywright">
           {/* <h3>Copyright © {year} SB</h3> */}
         </Col>
         <Col md="4" className="footer-body">
-          <h3>Copyright © {year} SB</h3>
+          {/* <h3>Copyright © {year} SB</h3> */}
           {/* <ul className="footer-icons">
             <li className="social-icons">
               <a

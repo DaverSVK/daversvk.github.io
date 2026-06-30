@@ -105,32 +105,20 @@ import {
 } from "react-icons/ai";
 import { FaLinkedinIn, FaMapMarkerAlt, FaBrain } from "react-icons/fa";
 import DroneHome from "../../Assets/Home/DroneHome.png";
+import DroneHomeVer from "../../Assets/Home/DroneHomeVer.png";
 import EmbeddedHome from "../../Assets/Home/EmbeddedHome.png";
+import EmbeddedHomeVer from "../../Assets/Home/EmbeddedHomeVer.png";
 import BioGenerativeAIHome from "../../Assets/Home/BioGenerativeAIHome.png";
+import BioGenerativeAIHomeVer from "../../Assets/Home/BioGenerativeAIHomeVer.png";
 import BioMechanicalHome from "../../Assets/Home/BioMechanicalHome.png";
+import BioMechanicalHomeVer from "../../Assets/Home/BioMechanicalHomeVer.png";
 
 function Home() {
   const panels = [
-    {
-      img: DroneHome,
-      // title: "Intelligent Systems",
-      // text: "Designing autonomous systems that perceive, learn and adapt.",
-    },
-    {
-      img: EmbeddedHome,
-      // title: "Embedded Intelligence",
-      // text: "Building robust embedded solutions with real-time intelligence.",
-    },
-    {
-      img: BioGenerativeAIHome,
-      // title: "Machine Learning",
-      // text: "Extracting insights from data and building models that drive decisions.",
-    },
-    {
-      img: BioMechanicalHome,
-      // title: "Human + Technology",
-      // text: "Exploring the future where technology enhances human potential.",
-    },
+    { img: DroneHome,          mobileImg: DroneHomeVer },
+    { img: EmbeddedHome,       mobileImg: EmbeddedHomeVer },
+    { img: BioGenerativeAIHome, mobileImg: BioGenerativeAIHomeVer },
+    { img: BioMechanicalHome,  mobileImg: BioMechanicalHomeVer },
   ];
 
   return (
@@ -192,8 +180,15 @@ function Home() {
 
           <div className="neo-panels">
             {panels.map((panel) => (
-              <article className="neo-panel" key={panel.title}>
-                <img className="neo-panel-bg" src={panel.img} alt={panel.title} />
+              <article className="neo-panel" key={panel.img}>
+                {panel.mobileImg ? (
+                  <picture>
+                    <source media="(max-width: 1100px)" srcSet={panel.mobileImg} />
+                    <img className="neo-panel-bg" src={panel.img} alt="" />
+                  </picture>
+                ) : (
+                  <img className="neo-panel-bg" src={panel.img} alt="" />
+                )}
 
                 {/* <div className="neo-panel-copy">
                   <span className="neo-panel-icon">

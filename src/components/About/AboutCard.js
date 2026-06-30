@@ -1,6 +1,5 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
-import { ImPointRight } from "react-icons/im";
 
 function AboutCard() {
   return (
@@ -36,19 +35,19 @@ function AboutCard() {
 
           <ul>
             <li className="about-activity">
-              <ImPointRight /> Tinkering with electronics and building things
+              <span style={{ display: "inline-block", width: 10, height: 10, borderRadius: "50%", background: "#22c55e", marginRight: 8, flexShrink: 0 }} /> Tinkering with electronics and building things
               that shouldn't exist
             </li>
             <li className="about-activity">
-              <ImPointRight /> Exploring new frameworks — usually at midnight,
+              <span style={{ display: "inline-block", width: 10, height: 10, borderRadius: "50%", background: "#22c55e", marginRight: 8, flexShrink: 0 }} /> Exploring new frameworks — usually at midnight,
               always with coffee
             </li>
             <li className="about-activity">
-              <ImPointRight /> Sports and staying active to balance out all the
+              <span style={{ display: "inline-block", width: 10, height: 10, borderRadius: "50%", background: "#22c55e", marginRight: 8, flexShrink: 0 }} /> Sports and staying active to balance out all the
               sitting
             </li>
             <li className="about-activity">
-              <ImPointRight /> Travelling and collecting new perspectives (and
+              <span style={{ display: "inline-block", width: 10, height: 10, borderRadius: "50%", background: "#22c55e", marginRight: 8, flexShrink: 0 }} /> Travelling and collecting new perspectives (and
               airport delays)
             </li>
           </ul>

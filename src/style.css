@@ -162,6 +162,12 @@ button:focus {
   margin-left: -80px !important;
 }
 
+@media (max-width: 1200px) {
+  .navbar-brand {
+    margin-left: 0 !important;
+  }
+}
+
 .logo {
   height: 2.8em !important;
   width: auto !important;
@@ -925,7 +931,7 @@ button:focus {
   opacity: 0.9;
 }
 .neo-home {
-  height: 100vh;
+  height: 100svh;
   padding: 70px 0px 0 !important;
   background:
     radial-gradient(circle at 20% 20%, rgba(34, 197, 94, 0.14), transparent 28%),
@@ -939,7 +945,7 @@ button:focus {
   z-index: 2;
   display: block;
   width: 100%;
-  height: calc(100vh - 75px);
+  height: calc(100svh - 75px);
   /* border: 1px solid rgba(34, 197, 94, 0.22); */
   /* background: rgba(2, 6, 23, 0.72); */
   /* box-shadow: 0 0 60px rgba(0, 0, 0, 0.55), inset 0 0 80px rgba(34, 197, 94, 0.04); */
@@ -1041,6 +1047,8 @@ button:focus {
   flex-wrap: wrap;
   gap: 18px;
   margin-top: 34px;
+  align-items: center;
+  justify-content: center;
 }
 
 .neo-btn {
@@ -1095,12 +1103,15 @@ button:focus {
 .neo-socials a {
   width: 42px;
   height: 42px;
-  display: grid;
-  place-items: center;
-  color: #f8fafc;
-  border: 1px solid rgba(148, 163, 184, 0.22);
-  border-radius: 8px;
-  background: rgba(15, 23, 42, 0.72);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.2em;
+  background: var(--bg-surface);
+  border: 1.5px solid var(--accent-border);
+  border-radius: 50%;
+  color: var(--accent);
+  transition: background 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease, color 0.3s ease;
 }
 
 .neo-location {
@@ -1204,36 +1215,94 @@ button:focus {
 }
 
 @media (max-width: 1100px) {
+  .neo-home {
+    height: auto !important;
+    overflow: visible;
+  }
+
+  .neo-shell {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+  }
+
   .neo-intro {
-    width: 60%;
-    background: linear-gradient(to right, rgba(2, 6, 23, 0.97) 65%, transparent 100%);
+    position: relative;
+    width: 100%;
+    height: auto;
+    background: linear-gradient(to bottom, rgba(2, 6, 23, 0.97) 15%, rgba(2, 6, 23, 0.6) 60%, transparent 100%);
+    padding: 48px 32px 220px;
+    z-index: 2;
+    /* align-items: center;
+    text-align: center; */
   }
 
   .neo-panels {
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(2, 1fr);
+    position: relative;
+    top: auto;
+    left: auto;
+    right: auto;
+    bottom: auto;
+    grid-template-columns: 1fr;
+    grid-template-rows: none;
+    margin-top: -340px;
+    z-index: 1;
+  }
+
+  .neo-panels::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 400px;
+    background: linear-gradient(to bottom,
+      rgba(2, 6, 23, 0.97) 0%,
+      rgba(2, 6, 23, 0.85) 25%,
+      rgba(2, 6, 23, 0.5) 55%,
+      rgba(2, 6, 23, 0.15) 80%,
+      transparent 100%);
+    z-index: 10;
+    pointer-events: none;
   }
 
   .neo-panel,
   .neo-panel + .neo-panel {
-    height: auto;
+    height: 40svh;
     margin-left: 0;
-    clip-path: none;
+    clip-path: polygon(0 10%, 100% 0, 100% 90%, 0 100%);
+  }
+
+  .neo-panel + .neo-panel {
+    margin-top: -2svh;
+  }
+  
+  .neo-bottom {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
   }
 }
 
 @media (max-width: 650px) {
   .neo-home {
-    padding-inline: 10px !important;
+    padding-inline: 0 !important;
   }
 
-  .neo-panels {
-    grid-template-columns: 1fr;
-    grid-template-rows: repeat(4, 1fr);
+  .neo-panel,
+  .neo-panel + .neo-panel {
+    height: 35svh;
+    clip-path: polygon(0 10%, 100% 0, 100% 90%, 0 100%);
+  }
+
+  .neo-panel + .neo-panel {
+    margin-top: -2svh;
   }
 
   .neo-bottom {
     flex-direction: column;
+    align-items: center;
+    text-align: center;
   }
 
   .neo-location {
