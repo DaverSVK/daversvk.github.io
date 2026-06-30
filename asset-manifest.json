@@ -1,9 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.fc2f6453.css",
-    "main.js": "/static/js/main.a3ee08d9.js",
+    "main.css": "/static/css/main.68ba94f9.css",
+    "main.js": "/static/js/main.a63307fa.js",
     "static/js/415.3a4cab02.chunk.js": "/static/js/415.3a4cab02.chunk.js",
     "static/js/787.edb04223.chunk.js": "/static/js/787.edb04223.chunk.js",
+    "static/media/EmbeddedHomeVer.png": "/static/media/EmbeddedHomeVer.3d0e83ab118626895ebb.png",
+    "static/media/BioMechanicalHomeVer.png": "/static/media/BioMechanicalHomeVer.4a33d914f0a92c97e1ac.png",
+    "static/media/BioGenerativeAIHomeVer.png": "/static/media/BioGenerativeAIHomeVer.579f5d855e391dff964b.png",
+    "static/media/BioGenerativeAIHome.png": "/static/media/BioGenerativeAIHome.09d421279865ea38c291.png",
+    "static/media/EmbeddedHome.png": "/static/media/EmbeddedHome.b213259d43e118140489.png",
+    "static/media/DroneHome.png": "/static/media/DroneHome.8291b56fc50d7a1bda4b.png",
+    "static/media/DroneHomeVer.png": "/static/media/DroneHomeVer.96ea5b69099a48e23d62.png",
+    "static/media/BioMechanicalHome.png": "/static/media/BioMechanicalHome.6a13f35126f3fc1e84c5.png",
     "static/media/DDPMSection2Img.png": "/static/media/DDPMSection2Img.19028a9e55f6e846e214.png",
     "static/media/DDPMSection0Img.png": "/static/media/DDPMSection0Img.87efc1a54201a13a7ef2.png",
     "static/media/about.png": "/static/media/about.102f12c68bb3461a6e4f.png",
@@ -19,16 +27,16 @@
     "static/media/BitsOfCodeTitleImg.png": "/static/media/BitsOfCodeTitleImg.fb8ab7f271a937d5fc01.png",
     "static/media/GreenHouseTitleImg.png": "/static/media/GreenHouseTitleImg.538f168c63e76ed11e8f.png",
     "static/media/home-bg.png": "/static/media/home-bg.bd7670a96d05161cf7be.png",
-    "static/media/Robot-Home.png": "/static/media/Robot-Home.b72e5c4df2a9c34c002d.png",
+    "static/media/logo5.png": "/static/media/logo5.ead2f547fd6baceccb23.png",
     "index.html": "/index.html",
     "static/media/InfinityLoader.svg": "/static/media/InfinityLoader.7bb9bef2da04a0e3f576.svg",
-    "main.fc2f6453.css.map": "/static/css/main.fc2f6453.css.map",
-    "main.a3ee08d9.js.map": "/static/js/main.a3ee08d9.js.map",
+    "main.68ba94f9.css.map": "/static/css/main.68ba94f9.css.map",
+    "main.a63307fa.js.map": "/static/js/main.a63307fa.js.map",
     "415.3a4cab02.chunk.js.map": "/static/js/415.3a4cab02.chunk.js.map",
     "787.edb04223.chunk.js.map": "/static/js/787.edb04223.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.fc2f6453.css",
-    "static/js/main.a3ee08d9.js"
+    "static/css/main.68ba94f9.css",
+    "static/js/main.a63307fa.js"
   ]
 }
