@@ -3,8 +3,10 @@ import { Container, Row, Col } from "react-bootstrap";
 import { BsTools, BsCpu, BsPhone } from "react-icons/bs";
 import Techstack from "./TechstackProjects";
 import heroLogo from "../../Assets/Projects/AutomaticGreenhouse/GreenHouseTitleImg.png";
+import firmwareImg from "../../Assets/Projects/AutomaticGreenhouse/GreenHouse3Dsqr.png";
+import firmwareImg2 from "../../Assets/Projects/AutomaticGreenhouse/GreenHouseDetection.png";
 import hardwareImg from "../../Assets/Projects/AutomaticGreenhouse/GreenHouseSection1Img.png";
-import appImg from "../../Assets/Projects/AutomaticGreenhouse/GreenHouseSection2Img.png";
+import appVid from "../../Assets/Projects/AutomaticGreenhouse/GreenHouseVid.mp4";
 
 /* ─── REAL CONTENT — edit as needed ─────────────────────────────────────── */
 const overviewPara1 =
@@ -21,15 +23,25 @@ const hardwareText =
 
 /* ─── TODO: Replace with real firmware content ───────────────────────────── */
 const firmwareText =
-  "[TODO] Describe the firmware architecture here — what microcontroller runs it, how sensor data is collected and processed, how the control logic (heating, fan, watering) is triggered, and how data is sent to Firebase. Mention any key design decisions like interrupt handling, sleep modes, or OTA update support.";
+  "At the centre of the greenhouse is a Raspberry Pi running a Python-based control service. The software is split into separate modules for sensor communication, hardware control, cloud connectivity, and camera-based plant monitoring. Environmental sensors communicate over I²C, while an external analogue-to-digital converter reads four independently calibrated soil-moisture probes.";
+
+const firmwareText2 =
+  "The main control loop continuously downloads the current greenhouse settings from Firebase, including the sampling interval, target temperature, lighting schedule, watering command, and fan speed. Those settings are translated into GPIO and PWM signals that operate the pump, heater, ventilation fan, and servo-controlled light. Heating uses a small tolerance around the selected temperature to prevent rapid switching, while lighting follows a configurable daily schedule.";
+
+const firmwareText3 =
+  "At each sampling interval, the Pi collects temperature, humidity, pressure, light intensity, and soil-moisture readings, timestamps them, and uploads the resulting dataset to Firebase Realtime Database. A connected camera can also capture plant images, run them through a YOLO detection model, and upload the annotated results to Firebase Storage. Sensor initialisation and authentication failures are handled inside the running loop, allowing the controller to reconnect and continue operating instead of requiring a manual restart.";
 
 /* ─── REAL CONTENT — edit as needed ─────────────────────────────────────── */
 const uiPara1 =
-  "The Smart Greenhouse app started life as a web dashboard — React with TypeScript on the frontend, Java on the backend — built primarily to display and manage sample data in a tabular view. It worked, but it felt clunky. After migrating the data layer to Firebase, the web app was retired in favour of something more natural to use on the go.";
+  "The greenhouse is paired with a lightweight mobile interface built in React Native and Expo, allowing the same JavaScript codebase to run on both Android and iOS. The application is organised into separate screen, component, styling, and communication layers, keeping the data-fetching logic independent from the visual elements.";
 
 const uiPara2 =
-  "The current version is a React Native app running on both Android and iOS. It communicates with the greenhouse in real time through Axios HTTP requests, using async/await patterns rather than promise chains. From the app you can view live sensor readings, check historical trends, and adjust plant-mode settings — all from wherever you are.";
-/* ─────────────────────────────────────────────────────────────────────────── */
+  "Rather than connecting through a custom backend, the app reads measurements directly from Firebase Realtime Database using Axios and asynchronous requests. Each database entry is converted into a consistent local object containing its timestamp, temperature, air humidity, and readings from four separate soil-moisture sensors.";
+
+const uiPara3 =
+  "The main screen displays the ten most recent measurement records in a scrollable log. Selecting an entry opens a larger detail view, making it easier to inspect an individual snapshot without overcrowding the overview. The interface uses reusable components for both compact and full-size records, together with a greenhouse-themed background and a simple, high-contrast layout designed for quick monitoring on a phone.";
+
+  /* ─────────────────────────────────────────────────────────────────────────── */
 
 function AutomaticGreenhouse() {
   return (
@@ -131,9 +143,36 @@ function AutomaticGreenhouse() {
             <h3 className="art-subsection-title">
               <BsCpu /> Firmware
             </h3>
-            <div className="art-body">
-              <p>{firmwareText}</p>
-            </div>
+                        <Row className="align-items-center" style={{ gap: "0" }}>
+              <Col md={6}>
+                <div className="art-body">
+                  <p>{firmwareText}</p>
+                  <p>{firmwareText2}</p>
+                </div>
+                                <img
+                  src={firmwareImg2}
+                  alt="detection model output on plant leaves"
+                  className="art-img-half"
+                  />
+                <p className="art-caption">
+                  {/* TODO: Add caption */}[Detection model output on plant leaves — bounding boxes and class labels ]
+                </p>
+              </Col>
+              <Col md={6} style={{ paddingLeft: "24px" }}>
+                <img
+                  src={firmwareImg}
+                  alt="Model of the greenhouse with sensors and actuators"
+                  className="art-img-half"
+                  />
+                <p className="art-caption">
+                  {/* TODO: Add caption */}[Model of the greenhouse with sensors and actuators — temperature, humidity, light, and soil moisture ]
+                </p>
+                <div className="art-body">
+                  <p>{firmwareText3}</p>
+                </div>
+              </Col>
+            </Row>
+
             {/* TODO: Add firmware architecture diagram, flowchart, or code snippet screenshot */}
             {/* <div className="art-img-placeholder">
               [ Add image: firmware flowchart or architecture diagram ]
@@ -151,11 +190,15 @@ function AutomaticGreenhouse() {
             <div className="art-body">
               <p>{uiPara1}</p>
               <p>{uiPara2}</p>
+              <p>{uiPara3}</p>
             </div>
-            <img
-              src={appImg}
-              alt="Greenhouse mobile app screenshots"
+            <video
+              src={appVid}
               className="art-img-full"
+              autoPlay
+              loop
+              muted
+              playsInline
             />
             <p className="art-caption">
               {/* TODO: Add caption */}[ React Native app — login, live readings, and plant-mode settings ]

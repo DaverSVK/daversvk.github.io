@@ -154,26 +154,49 @@ function Home() {
 
             <div className="neo-bottom">
               <div>
-                <small>Let&apos;s connect</small>
-                <div className="neo-socials">
-                  <a href="https://github.com/DaverSVK" target="_blank" rel="noreferrer">
-                    <AiFillGithub />
-                  </a>
-                  <a
-                    href="https://www.linkedin.com/in/d%C3%A1vid-sz%C3%A9pv%C3%B6lgyi-a6167b210/"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    <FaLinkedinIn />
-                  </a>
-                  <a
-                    href="https://www.instagram.com/david__szepvolgyi/"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    <AiFillInstagram />
-                  </a>
-                </div>
+                {/* <small>Let&apos;s connect</small> */}
+                <ul className="home-about-social-links">
+                  <li className="social-icons">
+                    <a
+                      href="https://github.com/DaverSVK"
+                      target="_blank"
+                      rel="noreferrer"
+                      className="icon-colour  home-social-icons"
+                    >
+                      <AiFillGithub />
+                    </a>
+                  </li>
+                  {/* <li className="social-icons">
+                    <a
+                      href="https://twitter.com/Soumyajit4419"
+                      target="_blank"
+                      rel="noreferrer"
+                      className="icon-colour  home-social-icons"
+                    >
+                      <AiOutlineTwitter />
+                    </a>
+                  </li> */}
+                  <li className="social-icons">
+                    <a
+                      href="https://www.linkedin.com/in/d%C3%A1vid-sz%C3%A9pv%C3%B6lgyi-a6167b210/"
+                      target="_blank"
+                      rel="noreferrer"
+                      className="icon-colour  home-social-icons"
+                    >
+                      <FaLinkedinIn />
+                    </a>
+                  </li>
+                  <li className="social-icons">
+                    <a
+                      href="https://www.instagram.com/david__szepvolgyi/"
+                      target="_blank"
+                      rel="noreferrer"
+                      className="icon-colour home-social-icons"
+                    >
+                      <AiFillInstagram />
+                    </a>
+                  </li>
+                </ul>
               </div>
             </div>
           </aside>

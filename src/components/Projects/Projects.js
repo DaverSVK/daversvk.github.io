@@ -5,7 +5,7 @@ import Particle from "../Particle";
 import leaf from "../../Assets/Projects/PlantAI/PlantAITitleImg.png";
 import emotion from "../../Assets/Projects/FaceRecognition/FaceRecognitionTitleImg.png";
 import editor from "../../Assets/Projects/Editor/EditorTitleImg.png";
-import GreenhouseImg from "../../Assets/Projects/AutomaticGreenhouse/GreenHouseTitleImg.png";
+import GreenhouseImg from "../../Assets/Projects/AutomaticGreenhouse/GreenHouse3Dsqr.png";
 import DDPMImg from "../../Assets/Projects/DiabeticRetinopathy/DDPMTitleImg.png";
 import suicide from "../../Assets/Projects/AiForSocialGood/AiForSocialGoodTitleImg.png";
 import bitsOfCode from "../../Assets/Projects/BitsOfCode/BitsOfCodeTitleImg.png";

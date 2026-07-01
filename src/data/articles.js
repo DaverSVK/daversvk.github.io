@@ -12,7 +12,7 @@
 //
 // Click priority: navigateTo → articleLink → ghLink
 
-import GreenHouse2Img from "../Assets/Projects/AutomaticGreenhouse/GreenHouseTitleImg.png";
+import GreenHouse2Img from "../Assets/Projects/AutomaticGreenhouse/GreenHouse3Dsqr.png";
 import DDPMTitleImg from "../Assets/Projects/DiabeticRetinopathy/DDPMTitleImg.png";
 
 export const articles = [
