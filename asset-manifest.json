@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.68ba94f9.css",
-    "main.js": "/static/js/main.9947d755.js",
+    "main.css": "/static/css/main.ae1dc4a1.css",
+    "main.js": "/static/js/main.edaca525.js",
     "static/js/415.3a4cab02.chunk.js": "/static/js/415.3a4cab02.chunk.js",
     "static/js/787.edb04223.chunk.js": "/static/js/787.edb04223.chunk.js",
     "static/media/GreenHouseVid.mp4": "/static/media/GreenHouseVid.508c4995ec463066d49b.mp4",
@@ -14,9 +14,12 @@
     "static/media/DroneHomeVer.png": "/static/media/DroneHomeVer.96ea5b69099a48e23d62.png",
     "static/media/BioMechanicalHome.png": "/static/media/BioMechanicalHome.6a13f35126f3fc1e84c5.png",
     "static/media/DDPMSection2Img.png": "/static/media/DDPMSection2Img.19028a9e55f6e846e214.png",
+    "static/media/FormulaCar.png": "/static/media/FormulaCar.83a1c136fc338fa8e02b.png",
     "static/media/GreenHouseDetection.png": "/static/media/GreenHouseDetection.20e607ba4a4528acd8cc.png",
     "static/media/DDPMSection0Img.png": "/static/media/DDPMSection0Img.87efc1a54201a13a7ef2.png",
     "static/media/about.png": "/static/media/about.102f12c68bb3461a6e4f.png",
+    "static/media/FormulaCarTitle.png": "/static/media/FormulaCarTitle.39089a5d0fe7d122f1bc.png",
+    "static/media/AMK.png": "/static/media/AMK.e3a1509070995dbcc7a5.png",
     "static/media/PlantAITitleImg.png": "/static/media/PlantAITitleImg.ff2616f664c8c0ceab91.png",
     "static/media/DDPMTitleImg.png": "/static/media/DDPMTitleImg.cc200a5086544dde88e0.png",
     "static/media/DDPMSection1Img.png": "/static/media/DDPMSection1Img.eb90cd139841f79ab4f2.png",
@@ -26,19 +29,20 @@
     "static/media/GreenHouseSection1Img.png": "/static/media/GreenHouseSection1Img.8b874376ffea39c227c9.png",
     "static/media/EditorTitleImg.png": "/static/media/EditorTitleImg.1b585492490c8c1cace9.png",
     "static/media/CV_EN_DavidSzepvolgyi.pdf": "/static/media/CV_EN_DavidSzepvolgyi.6fe64680f0927c206532.pdf",
+    "static/media/FrontUnit2.png": "/static/media/FrontUnit2.477e49ad633cd2388a19.png",
     "static/media/BitsOfCodeTitleImg.png": "/static/media/BitsOfCodeTitleImg.fb8ab7f271a937d5fc01.png",
     "static/media/GreenHouseTitleImg.png": "/static/media/GreenHouseTitleImg.538f168c63e76ed11e8f.png",
     "static/media/home-bg.png": "/static/media/home-bg.bd7670a96d05161cf7be.png",
     "static/media/logo5.png": "/static/media/logo5.ead2f547fd6baceccb23.png",
     "index.html": "/index.html",
     "static/media/InfinityLoader.svg": "/static/media/InfinityLoader.7bb9bef2da04a0e3f576.svg",
-    "main.68ba94f9.css.map": "/static/css/main.68ba94f9.css.map",
-    "main.9947d755.js.map": "/static/js/main.9947d755.js.map",
+    "main.ae1dc4a1.css.map": "/static/css/main.ae1dc4a1.css.map",
+    "main.edaca525.js.map": "/static/js/main.edaca525.js.map",
     "415.3a4cab02.chunk.js.map": "/static/js/415.3a4cab02.chunk.js.map",
     "787.edb04223.chunk.js.map": "/static/js/787.edb04223.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.68ba94f9.css",
-    "static/js/main.9947d755.js"
+    "static/css/main.ae1dc4a1.css",
+    "static/js/main.edaca525.js"
   ]
 }
