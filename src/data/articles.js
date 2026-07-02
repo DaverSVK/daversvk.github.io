@@ -14,6 +14,7 @@
 
 import GreenHouse2Img from "../Assets/Projects/AutomaticGreenhouse/GreenHouse3Dsqr.png";
 import DDPMTitleImg from "../Assets/Projects/DiabeticRetinopathy/DDPMTitleImg.png";
+import SGTImg from "../Assets/Projects/SGT/FormulaCarTitle.png";
 
 export const articles = [
   {
@@ -27,6 +28,18 @@ export const articles = [
     imgPath: GreenHouse2Img,
     tags: ["ESP32", "React Native", "Firebase", "Python"],
     date: "2024-06",
+  },
+  {
+    id: "electronic-differential",
+    title: "Electronic Differential & Vehicle Control System",
+    overview:
+      "Designing the complete electrical architecture for a Formula Student race car — from custom PCBs and wiring harness to CAN-based torque vectoring using the AMK Racing Kit v2.",
+    ghLink: "https://github.com/DaverSVK",
+    articleLink: null,
+    navigateTo: "/electronic_differential",
+    imgPath: SGTImg,
+    tags: ["Embedded Systems", "PCB Design", "CAN Communication", "Formula Student"],
+    date: "2024-01",
   },
   {
     id: "diabetic-retinopathy-diffusion",

@@ -7,6 +7,7 @@ import emotion from "../../Assets/Projects/FaceRecognition/FaceRecognitionTitleI
 import editor from "../../Assets/Projects/Editor/EditorTitleImg.png";
 import GreenhouseImg from "../../Assets/Projects/AutomaticGreenhouse/GreenHouse3Dsqr.png";
 import DDPMImg from "../../Assets/Projects/DiabeticRetinopathy/DDPMTitleImg.png";
+import SGTImg from "../../Assets/Projects/SGT/FormulaCarTitle.png";
 import suicide from "../../Assets/Projects/AiForSocialGood/AiForSocialGoodTitleImg.png";
 import bitsOfCode from "../../Assets/Projects/BitsOfCode/BitsOfCodeTitleImg.png";
 import Github from "./Github";
@@ -32,6 +33,17 @@ function Projects() {
               ghLink="http://github.com/DaverSVK/GreenhouseControl"
               // demoLink="https://chatify-49.web.app/"
               navigateTo="/automatic_greenhouse"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={SGTImg}
+              isBlog={false}
+              title="Electronic Differential & Vehicle Control System"
+              description="Complete electrical integration of a Formula Student race car — custom PCB design, CAN bus communication, wiring harness, and an electronic differential using the AMK Racing Kit v2 for real-time torque vectoring."
+              ghLink="https://github.com/DaverSVK"
+              navigateTo="/electronic_differential"
             />
           </Col>
 

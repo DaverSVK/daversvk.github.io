@@ -8,6 +8,7 @@ import Footer from "./components/Footer";
 import Resume from "./components/Resume/ResumeNew";
 import AutomaticGreenhouse from "./components/ProjectsList/AutomaticGreenhouse";
 import DiabeticRetinopathyDiffusion from "./components/ProjectsList/DiabeticRetinopathyDiffusion";
+import ElectronicDifferential from "./components/ProjectsList/ElectronicDifferential";
 import Articles from "./components/Articles/Articles";
 import {
   BrowserRouter as Router,
@@ -44,6 +45,7 @@ function App() {
           <Route path="/resume" element={<Resume />} />
           <Route path="/automatic_greenhouse" element={<AutomaticGreenhouse />} />
           <Route path="/diabetic_retinopathy" element={<DiabeticRetinopathyDiffusion />} />
+          <Route path="/electronic_differential" element={<ElectronicDifferential />} />
           <Route path="/articles" element={<Articles />} />
           <Route path="*" element={<Navigate to="/"/>} />
         </Routes>
