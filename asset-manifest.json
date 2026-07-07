@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.e288b398.css",
-    "main.js": "/static/js/main.afd587da.js",
+    "main.js": "/static/js/main.4c7ec40a.js",
     "static/js/787.edb04223.chunk.js": "/static/js/787.edb04223.chunk.js",
     "static/media/GreenHouseVid.mp4": "/static/media/GreenHouseVid.508c4995ec463066d49b.mp4",
     "static/media/EmbeddedHomeVer.png": "/static/media/EmbeddedHomeVer.3d0e83ab118626895ebb.png",
@@ -21,7 +21,7 @@
     "static/media/AMK.png": "/static/media/AMK.e3a1509070995dbcc7a5.png",
     "static/media/DDPMTitleImg.png": "/static/media/DDPMTitleImg.cc200a5086544dde88e0.png",
     "static/media/DDPMSection1Img.png": "/static/media/DDPMSection1Img.eb90cd139841f79ab4f2.png",
-    "static/media/CV_EN_DavidSzepvolgyi.pdf": "/static/media/CV_EN_DavidSzepvolgyi.04ff8fd0433529a079a1.pdf",
+    "static/media/CV_EN_DavidSzepvolgyi.pdf": "/static/media/CV_EN_DavidSzepvolgyi.134018c79fe03c8714b7.pdf",
     "static/media/GreenHouse3Dsqr.png": "/static/media/GreenHouse3Dsqr.57075690bba1d9d6ea5d.png",
     "static/media/GreenHouseSection1Img.png": "/static/media/GreenHouseSection1Img.8b874376ffea39c227c9.png",
     "static/media/FrontUnit2.png": "/static/media/FrontUnit2.477e49ad633cd2388a19.png",
@@ -31,11 +31,11 @@
     "index.html": "/index.html",
     "static/media/InfinityLoader.svg": "/static/media/InfinityLoader.7bb9bef2da04a0e3f576.svg",
     "main.e288b398.css.map": "/static/css/main.e288b398.css.map",
-    "main.afd587da.js.map": "/static/js/main.afd587da.js.map",
+    "main.4c7ec40a.js.map": "/static/js/main.4c7ec40a.js.map",
     "787.edb04223.chunk.js.map": "/static/js/787.edb04223.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e288b398.css",
-    "static/js/main.afd587da.js"
+    "static/js/main.4c7ec40a.js"
   ]
 }
