@@ -103,7 +103,7 @@ import {
   AiOutlineArrowRight,
   AiOutlineDownload,
 } from "react-icons/ai";
-import { FaLinkedinIn, FaMapMarkerAlt, FaBrain } from "react-icons/fa";
+import { FaLinkedinIn } from "react-icons/fa";
 import DroneHome from "../../Assets/Home/DroneHome.png";
 import DroneHomeVer from "../../Assets/Home/DroneHomeVer.png";
 import EmbeddedHome from "../../Assets/Home/EmbeddedHome.png";

@@ -3,7 +3,6 @@ import { Container, Row, Col } from "react-bootstrap";
 import { BsTools, BsCpu, BsPeople } from "react-icons/bs";
 import { GiElectric } from "react-icons/gi";
 import Techstack from "./TechstackElectronicDifferential";
-import heroImg from "../../Assets/Projects/SGT/FormulaCarTitle.png";
 import amkImg from "../../Assets/Projects/SGT/AMK.png";
 import carImg from "../../Assets/Projects/SGT/FormulaCar.png";
 import unitImg from "../../Assets/Projects/SGT/FrontUnit2.png";
@@ -134,12 +133,7 @@ function ElectronicDifferential() {
             <p>{overviewPara3}</p>
             <div className="art-callout">{overviewCallout}</div>
           </div>
-          {/* <img
-            src={heroImg}
-            alt="Formula Student race car on track"
-            className="art-img-full"
-            style={{ marginTop: "24px" }}
-          /> */}
+
           <p className="art-caption">Formula Student race car — electrical systems integration project</p>
         </section>
 

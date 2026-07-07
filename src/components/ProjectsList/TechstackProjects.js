@@ -1,6 +1,5 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
-import { CgCPlusPlus } from "react-icons/cg";
 
 import {
   DiReact,
@@ -11,7 +10,6 @@ import {
 import {
   SiFirebase,
   SiAutodesk,
-  SiBlender,
 
   // SiMathworks,
   // SiRaspberrypi,
