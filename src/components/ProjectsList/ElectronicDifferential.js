@@ -50,7 +50,7 @@ const embeddedText =
 
 const embeddedList = [
   "Schematic capture",
-  "PCB layout",
+  "PCB layout", //added
   "Connector selection",
   "Signal routing",
   "Power distribution",
