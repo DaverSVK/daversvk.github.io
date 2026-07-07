@@ -1,8 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.ae1dc4a1.css",
-    "main.js": "/static/js/main.78d37588.js",
-    "static/js/415.3a4cab02.chunk.js": "/static/js/415.3a4cab02.chunk.js",
+    "main.css": "/static/css/main.e288b398.css",
+    "main.js": "/static/js/main.afd587da.js",
     "static/js/787.edb04223.chunk.js": "/static/js/787.edb04223.chunk.js",
     "static/media/GreenHouseVid.mp4": "/static/media/GreenHouseVid.508c4995ec463066d49b.mp4",
     "static/media/EmbeddedHomeVer.png": "/static/media/EmbeddedHomeVer.3d0e83ab118626895ebb.png",
@@ -20,29 +19,23 @@
     "static/media/about.png": "/static/media/about.102f12c68bb3461a6e4f.png",
     "static/media/FormulaCarTitle.png": "/static/media/FormulaCarTitle.39089a5d0fe7d122f1bc.png",
     "static/media/AMK.png": "/static/media/AMK.e3a1509070995dbcc7a5.png",
-    "static/media/PlantAITitleImg.png": "/static/media/PlantAITitleImg.ff2616f664c8c0ceab91.png",
     "static/media/DDPMTitleImg.png": "/static/media/DDPMTitleImg.cc200a5086544dde88e0.png",
     "static/media/DDPMSection1Img.png": "/static/media/DDPMSection1Img.eb90cd139841f79ab4f2.png",
-    "static/media/FaceRecognitionTitleImg.png": "/static/media/FaceRecognitionTitleImg.eabfc16e7a146ab15778.png",
-    "static/media/AiForSocialGoodTitleImg.png": "/static/media/AiForSocialGoodTitleImg.9c86cd7138a398c45fa5.png",
     "static/media/CV_EN_DavidSzepvolgyi.pdf": "/static/media/CV_EN_DavidSzepvolgyi.04ff8fd0433529a079a1.pdf",
     "static/media/GreenHouse3Dsqr.png": "/static/media/GreenHouse3Dsqr.57075690bba1d9d6ea5d.png",
     "static/media/GreenHouseSection1Img.png": "/static/media/GreenHouseSection1Img.8b874376ffea39c227c9.png",
-    "static/media/EditorTitleImg.png": "/static/media/EditorTitleImg.1b585492490c8c1cace9.png",
     "static/media/FrontUnit2.png": "/static/media/FrontUnit2.477e49ad633cd2388a19.png",
-    "static/media/BitsOfCodeTitleImg.png": "/static/media/BitsOfCodeTitleImg.fb8ab7f271a937d5fc01.png",
     "static/media/GreenHouseTitleImg.png": "/static/media/GreenHouseTitleImg.538f168c63e76ed11e8f.png",
     "static/media/home-bg.png": "/static/media/home-bg.bd7670a96d05161cf7be.png",
     "static/media/logo5.png": "/static/media/logo5.ead2f547fd6baceccb23.png",
     "index.html": "/index.html",
     "static/media/InfinityLoader.svg": "/static/media/InfinityLoader.7bb9bef2da04a0e3f576.svg",
-    "main.ae1dc4a1.css.map": "/static/css/main.ae1dc4a1.css.map",
-    "main.78d37588.js.map": "/static/js/main.78d37588.js.map",
-    "415.3a4cab02.chunk.js.map": "/static/js/415.3a4cab02.chunk.js.map",
+    "main.e288b398.css.map": "/static/css/main.e288b398.css.map",
+    "main.afd587da.js.map": "/static/js/main.afd587da.js.map",
     "787.edb04223.chunk.js.map": "/static/js/787.edb04223.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ae1dc4a1.css",
-    "static/js/main.78d37588.js"
+    "static/css/main.e288b398.css",
+    "static/js/main.afd587da.js"
   ]
 }
